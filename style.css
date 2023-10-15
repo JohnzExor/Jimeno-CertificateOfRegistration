@@ -38,5 +38,33 @@ header .header-container .header-text p {
 }
 
 header .header-title {
-    letter-spacing: 10px;
+    letter-spacing: 7px;
+}
+
+main {
+    width: 80%;
+}
+
+main .section-container {
+    border: black solid 1px;
+}
+
+main table {
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+main .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+main .table-container .table-title{
+    background-color: cadetblue;
+    width: 100%;
+    text-align: center;
+    padding: 0.1em;
 }
