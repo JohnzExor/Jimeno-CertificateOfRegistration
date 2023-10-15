@@ -45,6 +45,14 @@ main {
     width: 80%;
 }
 
+.regno {
+    padding: 0.5em;
+}
+
+.regno span {
+    color: brown;
+}
+
 main .section-container {
     border: black solid 1px;
 }
@@ -52,6 +60,7 @@ main .section-container {
 main table {
     width: 100%;
     border-top: 1px solid black;
+    border-collapse: collapse;
 }
 
 main .table-container {
@@ -67,4 +76,20 @@ main .table-container .table-title{
     width: 100%;
     text-align: center;
     padding: 0.1em;
+}
+
+.note {
+    margin-right: auto;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.total-units {
+    font-weight: bold;
+}
+.table-subj-columns {
+    background-color: cadetblue;
+}
+
+.table-subj {
+    text-align: left;
 }
