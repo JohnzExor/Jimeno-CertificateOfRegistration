@@ -190,4 +190,9 @@ main .table-container {
 
 .payment-deadline {
     text-align: center;
+
+}
+
+.payment-deadline td {
+    border: 1px solid black;
 }
