@@ -59,7 +59,6 @@ main .section-container {
 
 main table {
     width: 100%;
-    border-top: 1px solid black;
     border-collapse: collapse;
 }
 
@@ -75,6 +74,8 @@ main .table-container {
     background: linear-gradient(90deg, rgba(180, 120, 58, 1) 0%, rgba(179, 61, 61, 1) 50%, rgba(181, 123, 42, 1) 100%);
     width: 100%;
     text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .note {
@@ -88,6 +89,8 @@ main .table-container {
 .table-subj-columns {
     background: rgb(180, 120, 58);
     background: linear-gradient(90deg, rgba(180, 120, 58, 1) 0%, rgba(179, 61, 61, 1) 50%, rgba(181, 123, 42, 1) 100%);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .table-subj {
